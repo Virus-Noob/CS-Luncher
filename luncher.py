@@ -170,12 +170,14 @@ def clr():
 
 def bann_text():
     clr()
-    logo="""mmm   mmmm         m                           #
- m"   " #"   "        #      m   m  m mm    mmm   # mm    mmm    m mm
- #      "#mmm         #      #   #  #"  #  #"  "  #"  #  #"  #   #"  "
- #          "#  """   #      #   #  #   #  #      #   #  #""""   #
-  "mmm" "mmm#"        #mmmmm "mm"#  #   #  "#mm"  #   #  "#mm"   #
-"""
+    logo="""____________
+< CS-Luncher >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||"""
     version="Version: "+__VERSION__
     contributors="Contributors: "+" ".join(__CONTRIBUTORS__)
     print(random.choice(ALL_COLORS) + logo + RESET_ALL)
